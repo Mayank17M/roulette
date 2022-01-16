@@ -1,0 +1,23 @@
+{
+  "name": "roulette",
+  "version": "1.0.0",
+  "description": "Create a roulette game in Solana.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayank17M/roulette.git"
+  },
+  "keywords": [],
+  "author": "Mayank17M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayank17M/roulette/issues"
+  },
+  "homepage": "https://github.com/Mayank17M/roulette#readme",
+  "dependencies": {
+    "@solana/web3.js": "^1.31.0"
+  }
+}
