@@ -54,7 +54,7 @@ const askQuestions = () => {
             type: "rawlist",
             name: "RATIO",
             message: "What is the ratio of your staking?",
-            choices: ["1:1.25", "1:1.5", "1.75", "1:2"],
+            choices: ["1:1.25", "1:1.5", "1:75", "1:2"],
             filter: function(val) {
                 const stakeFactor=val.split(":")[1];
                 return stakeFactor;
